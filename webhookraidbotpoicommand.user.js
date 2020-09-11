@@ -344,7 +344,7 @@ function wrapper(plugin_info) {
 
   const sendCommandToWebhook = function (messageText) {
     let request = new XMLHttpRequest();
-    request.open("POST", settings.webhookUrl);
+    request.open("POST", settings.https://discord.com/api/webhooks/754043488969949195/RIb8wDLELQ3W8OgdpXwqP5UfnR6qm0pCbp4c9fytBsc6KZiHrvCXhQw2RoJh5iA4rTdN);
     request.setRequestHeader("Content-type", "application/json");
     const params = {
       username: settings.botName,
@@ -356,7 +356,7 @@ function wrapper(plugin_info) {
 
     if (settings.webhookUrlAlt.length > 0) {
       request = new XMLHttpRequest();
-      request.open("POST", settings.webhookUrlAlt);
+      request.open("POST", settings.https://discord.com/api/webhooks/754043488969949195/RIb8wDLELQ3W8OgdpXwqP5UfnR6qm0pCbp4c9fytBsc6KZiHrvCXhQw2RoJh5iA4rTdN);
       request.setRequestHeader("Content-type", "application/json");
       request.send(JSON.stringify(params));
     }
